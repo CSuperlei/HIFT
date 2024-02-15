@@ -38,23 +38,17 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
    ...
    ```
 
-### Digits
-    cd ~
-    git clone https://github.com/NVIDIA/DIGITS.git digits
-    cd digits
-    sudo apt-get install graphviz gunicorn
-    for req in $(cat requirements.txt); do sudo pip install $req; done 
-    pip install -r ~/digits/requirements.txt 
-    ./digits-devserver
-
-### pysam
-* pip install pysam
-
 ## Usage
-### Data
-BAM file & VCF file <br/>
-First provide the bam files and vcf files for program<br/>
-### Generation Candidates
+
+### HIFT theoretical verification of one-dimensional and two-dimensional Fourier transform
+ * ft_1d is theoretical verification of HIFT's one-dimension Fourier transform result.  
+ * ft_2d is theoretical verification of HIFT's two-dimension Fourier transform result.  
+   ```python
+   python ft_1d.py
+   python ft_2d.py
+   ```
+   
+### EEG Data Preprocess
 Run Generate_Deletion_Image.py and Generate_Non_Deletion_Image.py in the custom path <br/> 
 * python Generate_Deletion_Image.py --del_length <br/>
 * python Generate_Non_Deletion_Image.py --del_length <br/>
@@ -74,5 +68,5 @@ Generating whole genome pictures
 ### Extracting deletion information from test results
 * python extract_breakpoint.py
 
-### License
+## License
 * This project is covered under the MIT License.

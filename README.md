@@ -29,7 +29,14 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
    ```
 
 ### Other Packages
-* pip install tensorflow-gpu
+ ```python
+   pip install mayavi   
+   pip install PyQt5   
+   pip install matplotlib
+   pip install scipy
+   pip install numpy
+   ...
+   ```
 
 ### Digits
     cd ~

@@ -24,9 +24,11 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
 ### Anaconda
   bash Anaconda3-2023.09-0-Linux-x86_64.sh <br/>
 ### Pytorch 
-   * 
+   ```python
+   pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
+   ```
 
-### TensorFlow
+### Other Packages
 * pip install tensorflow-gpu
 
 ### Digits

@@ -78,7 +78,7 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
 * crossbar.json is used to configure the 1T1R crossbar.
 
 ### Vanilla Net
-* Vanilla Net is an extremely lightweight neural network model proposed by Huawei [[1]](https://arxiv.org/abs/2305.12972). In our paper, Vanilla Net is used to recognize the HIFT Fourier transform EEG spectrum.
+* Vanilla Net is an extremely lightweight neural network model proposed by Chen [[1]](https://arxiv.org/abs/2305.12972). In our paper, Vanilla Net is used to recognize the HIFT Fourier transform EEG spectrum.
 
 ## License
 * This project is covered under the MIT License.

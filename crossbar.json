@@ -1,0 +1,32 @@
+{
+    "latency":1, 
+    "power":1,
+    "cycle_time":10, 
+    "rram_datatype": "bit",
+    "rram_num": 1,
+    "transistor_num": 1,
+
+    "adc_latency": 1,
+    "adc_level": 1,
+    "adc_area": 0.003,
+    "adc_outbit": 1,
+
+    "dac_power": 1,
+    "dac_latency": 1,
+    "dac_level": 1,
+    "dac_area": 0.008,
+    "dac_inputbit": 1,
+
+    "sa_threshold": 0.55,
+    "sa_power": 0.022,
+    "sa_latency": 0.5,
+    "sa_area": 0.001,
+
+    "cross_colnum": 2048,
+    "cross_rownum": 2048,
+    "cross_openrow": 1,
+    "cross_opencol": 1,
+    "cross_colreuse": 1,
+    "cross_isadc": false, 
+    "cross_wirelatency":1
+}

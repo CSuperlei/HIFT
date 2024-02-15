@@ -1,0 +1,9 @@
+numpy>=1.20.0
+scipy>=1.10.0
+torch>=1.12.1
+torchvision>=0.14.0
+matplotlib>=3.7.0
+open3d>=0.17.0
+mayavi>=4.8.0
+scikit-learn>=0.21.3
+pandas>=2.0.2

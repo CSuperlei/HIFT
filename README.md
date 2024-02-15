@@ -49,24 +49,36 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
    ```
    
 ### EEG Data Preprocess
-Run Generate_Deletion_Image.py and Generate_Non_Deletion_Image.py in the custom path <br/> 
-* python Generate_Deletion_Image.py --del_length <br/>
-* python Generate_Non_Deletion_Image.py --del_length <br/>
+* The data processing process after OpenBCI EEG acquisition
+   ```python
+   python eeg_preprocess.py
+   ```
 
-### Geerationg Images Path
-Generate the path of all pictures for training the network
-* python my_file_travel.py
+### HIFT ocean point cloud rendering using Maya
+* We use Mayavi to render the FT results of HIFT and visualize the results
+   ```python
+   python mayavi.py
+   ```
 
-### Using Digits training CNN
-Send all the generated pictures to the network training
-* Using the CNN architecture in CNN_Source.py 
+### 1T1R Crossbar theoretical verification model about RRAM
+* We constructed a memristor behavior level model for in memory computing to verify the theoretical feasibility of HIFT. Crossbar.py contains 9 classes that can be combined to complete 1T1R array functionality as needed. These 9 categories are:
+   ```python
+   1. Crossbar: crossbar framework
+   2. MemCell: 1T1R cell
+   3. Transistor: transistor
+   4. DAC:  Digital/Analog Unit
+   5. ADC:  Analog/Digital Unit
+   6. SA:   Sample and Hold
+   7. Device: memristor
+   8. Config: Configuration of 1T1R
+   9. Addr_manager: attribute settings
+   ```
 
-### Using a trained network for calling deletion
-Generating whole genome pictures
-* python Whole_genome_Image.py
+### Crossbar Configuration
+* crossbar.json is used to configure the 1T1R crossbar.
 
-### Extracting deletion information from test results
-* python extract_breakpoint.py
+### Vanilla Net
+* Vanilla Net is an extremely lightweight neural network model proposed by Huawei[1](https://arxiv.org/abs/2305.12972). In this paper, Vanilla Net is used to recognize the HIFT Fourier transform EEG spectrum.
 
 ## License
 * This project is covered under the MIT License.

@@ -1,8 +1,7 @@
 # HFIT: First-principle heterogeneous memristor-based Fourier transform
 
-<div align="center">
 ![HIFT](https://github.com/CSuperlei/HIFT/raw/main/Pic/HIFT.png)
-</div>
+
 
 ## Introduction
 HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> memristor arrays and TaO<sub>x</sub> memristor arrays. HIFT features new schemes with VO<sub>2</sub> oscillator based frequency spectrum synthesize and cross-window accumulation with TaO<sub>x</sub> memristor arrays with bipolar differential conductance mapping. HIFT fully exploits the symmetry of the positive and negative thresholds of VO<sub>2</sub> memristors to generate stable oscillation frequency. This work demonstrates the potential and high efficiency of the HIFT system in realizing Fourier transformation and we are aiming to integrate the two memristors and their related circuits together into a single chip for future developments of HIFT.

@@ -61,7 +61,7 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
    python mayavi.py
    ```
 
-### 1T1R Crossbar theoretical verification model about RRAM
+### 1T1R Crossbar theoretical verification model
 * We constructed a memristor behavior level model for in memory computing to verify the theoretical feasibility of HIFT. Crossbar.py contains 9 classes that can be combined to complete 1T1R array functionality as needed. These 9 categories are:
    ```python
    1. Crossbar: crossbar framework

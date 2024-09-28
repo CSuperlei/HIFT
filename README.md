@@ -9,7 +9,7 @@
 Fourier transform (FT) plays an extremely important role in mathematics, physics, engineering, and many other scientific fields. It is a fundamental method to analyze the frequency characteristics of functions or signals. Whereas remarkable progress has been achieved in the past for FT system design, making breakthrough improvements in FT efficiency is becoming very challenging. This is because state-of-the-art FT systems are mainly based on traditional Cooly-Tukey scheme, which naturally introduces sequential window-after-window processing schedule, separate real and imaginary computations, and/or quadratically growing memory cost with increasing FT window size N. Here we report first-principle hetero-integrated Fourier transform (HIFT) enabled by volatile and non-volatile memristors to fundamentally break these bottlenecks. We investigate the VO<sub>2</sub> volatile memristors and build highly accurate oscillators that achieve frequency spectrum up to 1.74 MHz and calibratable resolution down to 50 Hz, enabling maximum 2048-point FT and cross-window parallelism. We fabricate highly uniform TaO<sub>x</sub>/HfO<sub>x</sub> non-volatile memristors with iterative write-verify for in-memory multiply-and-accumulation of oscillation waves, realizing unified real and imaginary computations and scalable memory cost.
 </div>
 
-![WorkFlow](https://github.com/CSuperlei/HIFT/raw/main/Pic/Introduction.png)
+![WorkFlow](https://github.com/CSuperlei/HIFT/raw/main/Pic/Introduction.jpg)
 
 ## Requirements
   * numpy>=1.20.0

@@ -8,15 +8,6 @@ import numpy as np
 from scipy.signal import get_window 
 import matplotlib.pyplot as plt 
 
-plt.rcParams['pdf.fonttype'] = 'truetype'
-plt.rcParams["font.family"] = "Arial"
-plt.rcParams["font.size"] = 12
-plt.rcParams["axes.titlesize"] = 12
-plt.rcParams["axes.labelsize"] = 12
-plt.rcParams["xtick.labelsize"] = 12
-plt.rcParams["ytick.labelsize"] = 12
-plt.rcParams["legend.fontsize"] = 12
-
 def gen_tri(signal_length, vo_fre_interval=50, flag='cos'):
     '''
     Different frequency of the triangle wave

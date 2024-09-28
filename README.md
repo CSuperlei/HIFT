@@ -82,7 +82,7 @@ HIFT is designed from first principle of Fourier transform using VO<sub>2</sub> 
 * Vanilla Net is an extremely lightweight neural network model proposed by Chen [[1]](https://arxiv.org/abs/2305.12972). In our manuscript, Vanilla Net is used to recognize the HIFT Fourier transform EEG spectrum.
 
 ### UHDFour Net
-* UHDFour-Net embeded Fourier transform in to nerual network for ultra-high-definition low-Light image enhancement [[2]](https://arxiv.org/abs/2302.11831). In our manuscript， UHDFour Net is the backbone of HIFT's LLIE in real-world application.
+* UHDFour-Net embeded Fourier transform into nerual network for ultra-high-definition low-Light image enhancement [[2]](https://arxiv.org/abs/2302.11831). In our manuscript， UHDFour Net is the backbone of HIFT's LLIE in real-world application.
 
 ## License
 * This project is covered under the MIT License.

@@ -1,4 +1,4 @@
-# HIFT: First-principle Heterogeneous Memristor based Fourier Transform
+# First-principle Heterogeneous Memristor based Fourier Transform
 
 <div align="center">
     <img src="https://github.com/CSuperlei/HIFT/raw/main/Pic/HIFT.png" alt="HIFT">
